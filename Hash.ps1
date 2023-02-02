@@ -32,3 +32,19 @@ $hash.Count
 
 write-host("sort by key")
 $hash.GetEnumerator() | Sort-Object -Property key
+
+
+
+# The Hashtable data structure is much like an array, except you store each value (object) using a key: 
+
+# Creating an empty hashtable
+$ArtistAgeTheyDied = @{}
+
+# Add to HashTable: 
+$key = 'Bob Ross'
+$value = 52
+$ArtistAgeTheyDied.add( $key, $value )
+
+# Add more to HashTable like this: 
+$ArtistAgeTheyDied.add( 'Chuck Close', 81 )
+$ArtistAgeTheyDied.add('Salvador Dalí', 84 )
