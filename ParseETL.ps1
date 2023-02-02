@@ -45,7 +45,7 @@ $arr += 100
 $autoArr = 1..5
 
 # Hash Table
-$hash = @{Name = "Jeff", Name = "Marc",}
+$hash = @{FirstName = "Tony"; LastName = "Stark"}
 
 # Version control in VS Code
 https://code.visualstudio.com/docs/introvideos/versioncontrol
