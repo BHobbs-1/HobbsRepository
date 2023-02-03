@@ -48,5 +48,3 @@ $autoArr
 # Hash Table
 $hash = @{FirstName = "Tony"; LastName = "Stark"}
 $hash
-# Version control in VS Code
-https://code.visualstudio.com/docs/introvideos/versioncontrol
