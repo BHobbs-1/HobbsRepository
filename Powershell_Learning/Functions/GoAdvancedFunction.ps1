@@ -19,3 +19,5 @@ Function Copy-OneTwo {
      switch ($PsCmdlet.ParameterSetName){
         "OneDestination"   { Copy-Item -Recurse $Source $Destination } 
         "TwoDestinations"  { Copy-Item -Recurse $Source $Destination1; Copy-Item $Source $Destination2 }
+     }
+}
