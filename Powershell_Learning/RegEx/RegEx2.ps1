@@ -72,7 +72,7 @@ $base
 $rx.Split($base.BaseName)
 
 #split on allfiles and group on the result
-$rx.split((dir c:\data -file).basename) | Group-Object -NoElement
+$rx.split((Get-ChildItem c:\data -file).basename) | Group-Object -NoElement
 
 #splitting always includes an empty result
 #trim where possible
