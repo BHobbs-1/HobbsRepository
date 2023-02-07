@@ -1,6 +1,6 @@
 <#
     .SYNOPSIS
-        Placeholder for now
+    Ping server
     
     .PARAMETER ComputerName
     The remote computer(s) to check the status of the services on.
