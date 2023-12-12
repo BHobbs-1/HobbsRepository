@@ -1,2 +1,2 @@
 # HobbsRepository
-# This is a test location for now
+# This is a test location for Copilot now.
